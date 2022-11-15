@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.dealer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    height: 100vh;
+}
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+.cards {
+    width: 90%;
+    height: 15vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+#listOfCards {
+    font-size: calc(10vw);
+    height: 100%;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+}
+button {
+    text-align: center;
+    margin: 10px;
+    height: 70px;
+    width: 200px;
+    font-size: 3rem;
+}
+.black {
+    color: black;
+}
+.red {
+    color: red;
+}
+.error {
+    color: blue;
+}
